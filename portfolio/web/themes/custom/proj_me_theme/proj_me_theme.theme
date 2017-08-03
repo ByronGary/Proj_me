@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+function proj_me_theme_preprocess(&$variables) {
+	$variables['year'] = date('Y');
+	$variables['site_name'] = \Drupal::config('system.site')->get('name');
+	$hero_file_settings = theme_get_setting('proj_me_header');
+	if (!empty($hero_file_settings)) {
+		$hero_file = \Drupal\file\Entity\File::load($hero_file_settings[0]);
+		$hero_file_uri = $hero_file->getFileUri();
+		$variables['proj_me_header'] = file_create_url($hero_file_uri);
+	}
+}
