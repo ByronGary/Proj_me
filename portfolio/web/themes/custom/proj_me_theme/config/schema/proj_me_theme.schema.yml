@@ -2,4 +2,4 @@
 
 THEMENAME.settings:
   type: theme_settings
-  label: 'proj_me_theme settings'
+  label: 'THEMENAME settings'
