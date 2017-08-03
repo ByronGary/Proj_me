@@ -6318,10 +6318,7 @@ ol, ul {
     margin-bottom: 0; }
 
 body {
-  background-color: blue; }
-
-.page-header {
-  margin-top: 0; }
+  background-color: red; }
 
 .footer {
   margin-top: 45px;
@@ -6348,5 +6345,22 @@ p:last-child,
   padding: 0; }
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
+
+.region-footer {
+  text-align: center;
+  background-color: #161616; }
+
+.footer-copyright {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  border-top: 1px solid #282828;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #161616;
+  color: #525252;
+  width: 100%; }
+
+.footer-copyright-year {
+  color: #bf5829; }
 
 /*# sourceMappingURL=style.css.map */

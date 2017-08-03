@@ -28,13 +28,13 @@ ol, ul {
 
  
 body {
-  background-color: blue;
+  background-color: red;
 }
 
 
 
 
-// Footer.
+
 .footer {
   margin-top: 45px;
   padding-top: 35px;
@@ -70,4 +70,25 @@ p:last-child,
   &:first-child {
     margin-top: 0;
   }
+}
+
+
+.region-footer {
+  text-align: center;
+    background-color: #161616;
+}
+
+.footer-copyright {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  border-top: 1px solid #282828;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #161616;
+  color: #525252;
+  width: 100%;
+}
+
+.footer-copyright-year {
+  color: #bf5829;
 }
