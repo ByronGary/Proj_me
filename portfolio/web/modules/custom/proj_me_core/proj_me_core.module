@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains proj_me_core.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function proj_me_core_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the proj_me_core module.
+    case 'help.page.proj_me_core':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Custom module containing custom blocks') . '</p>';
+      return $output;
+
+    default:
+  }
+}
