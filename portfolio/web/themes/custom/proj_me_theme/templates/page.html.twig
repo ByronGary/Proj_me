@@ -57,6 +57,9 @@
  */
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+
+<div id="hero-two">
+
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
   {% block navbar %}
@@ -67,6 +70,7 @@
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
       ]
     %}
+
     <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
       {% if not navbar_attributes.hasClass(container) %}
         <div class="{{ container }}">
@@ -93,7 +97,10 @@
       {% if not navbar_attributes.hasClass(container) %}
         </div>
       {% endif %}
+
     </header>
+</div>
+
   {% endblock %}
 {% endif %}
 
@@ -178,10 +185,14 @@
   </div>
 {% endblock %}
 
-{% if page.footer %}
-  {% block footer %}
-    <footer class="footer {{ container }}" role="contentinfo">
-      {{ page.footer }}
-    </footer>
-  {% endblock %}
-{% endif %}
+<footer class="footer {{ container }}" role="contentinfo">
+      {% if page.footer %}
+        {% block footer %}
+            {{ page.footer }}
+        {% endblock %}
+      {% endif %}
+      <div class="footer-copyright">
+      <span class="footer-copyright-year">&#169; {{year}}</span> {{site_name}} all rights reserved
+      </div>
+</footer>
+ 

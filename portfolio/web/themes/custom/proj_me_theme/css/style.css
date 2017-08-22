@@ -6320,13 +6320,49 @@ ol, ul {
 body {
   background-image: url("../images/DC.jpg"); }
 
+#block-calltoactionblock {
+  padding-top: 60px;
+  padding-bottom: 55px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #272727;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 40px;
+  font-weight: 600;
+  width: 100%; }
+
+#block-calltoactionblock .letsbuild {
+  margin: 0px 25px;
+  background-color: #bf5829;
+  color: #d6d6d6;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  font-family: "Trebuchet MS";
+  font-size: 15px; }
+
+#block-templateprogrammed {
+  padding-top: 35px;
+  padding-bottom: 36px;
+  text-align: center;
+  background-color: #161616;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%; }
+
+#block-templateprogrammed .debug-academy {
+  color: #f4a742;
+  border-bottom: 1px solid #f4a742; }
+
 .footer {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5; }
 
-.region-help > .glyphicon {
+.region-help .glyphicon {
   font-size: 18px;
   float: left;
   margin: -0.05em 0.5em 0 0; }
@@ -6344,6 +6380,30 @@ body {
 .region-footer {
   text-align: center;
   background-color: #161616; }
+
+#calltoactionblock {
+  width: 100%;
+  text-align: center;
+  background-color: #272727;
+  color: #525252;
+  font-family: "Bodoni MT";
+  font-size: 44px;
+  font-weight: 600;
+  text-align: center; }
+
+#calltoactionblock a {
+  color: #ffffff;
+  background-color: #bf5829;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin: 10px;
+  text-decoration: none; }
+
+#calltoactionblock p {
+  font-size: 23px; }
 
 .footer-copyright {
   padding-top: 30px;
