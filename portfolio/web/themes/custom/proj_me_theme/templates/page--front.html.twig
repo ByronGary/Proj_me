@@ -58,8 +58,6 @@
 #}
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 
-
-
 <link href="https://fonts.googleapis.com/css?family=Oswald|Playfair+Display|Poly" rel="stylesheet">
 
 
@@ -73,6 +71,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,600|Playfair+Display:400,700|Poly');
 </style>
 
+<div id="hero" {% if proj_me_header %} style = "background-image: url({{proj_me_header}});" {% endif %}>
 
 {# Navbar #}
 {% if page.navigation or page.navigation_collapsible %}
@@ -84,6 +83,7 @@
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
       ]
     %}
+
     <header{{ navbar_attributes.addClass(navbar_classes) }} id="navbar" role="banner">
       {% if not navbar_attributes.hasClass(container) %}
         <div class="{{ container }}">
@@ -110,7 +110,19 @@
       {% if not navbar_attributes.hasClass(container) %}
         </div>
       {% endif %}
+
+    <div class="hero-section-border"></div>
+    <div class="hero-section">
+      <h2 class="hero-text">Digital development </br> <u>&</u> design that is built </br> to <span class="last">last</span>.</h2>
+      <div class="call-to-action">
+        <button class="button" type="button">get a quote on your project</button>
+      </div>
+    </div>
+    
+
     </header>
+    </div>
+
   {% endblock %}
 {% endif %}
 
@@ -205,3 +217,4 @@
       <span class="footer-copyright-year">&#169; {{year}}</span> {{site_name}} all rights reserved
       </div>
 </footer>
+ 
