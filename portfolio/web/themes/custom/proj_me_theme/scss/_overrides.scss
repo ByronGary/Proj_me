@@ -29,7 +29,7 @@ ol, ul {
  
 body {
    background-image: url('../images/DC.jpg');
-   background-repeat: round;
+  
 }
 
 
@@ -43,14 +43,9 @@ body {
   border-top: 1px solid #E5E5E5;
 }
 
-// Paragraphs.
-p:last-child,
-.form-group:last-child,
-.panel:last-child {
-  margin-bottom: 0;
-}
 
-// Help region.
+
+
 .region-help {
   > .glyphicon {
     font-size: $font-size-large;

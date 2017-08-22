@@ -6318,19 +6318,13 @@ ol, ul {
     margin-bottom: 0; }
 
 body {
-  background-image: url("../images/DC.jpg");
-  background-repeat: round; }
+  background-image: url("../images/DC.jpg"); }
 
 .footer {
   margin-top: 45px;
   padding-top: 35px;
   padding-bottom: 36px;
   border-top: 1px solid #E5E5E5; }
-
-p:last-child,
-.form-group:last-child,
-.panel:last-child {
-  margin-bottom: 0; }
 
 .region-help > .glyphicon {
   font-size: 18px;
