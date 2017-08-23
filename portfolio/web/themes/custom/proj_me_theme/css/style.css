@@ -6320,6 +6320,29 @@ ol, ul {
 body {
   background-image: url("../images/DC.jpg"); }
 
+.row .views-row {
+  background-color: #f4f4f3; }
+
+.row a .quickedit-field {
+  color: #382a3b;
+  font-family: "Bodoni MT";
+  font-size: 40px;
+  font-weight: 600; }
+
+.row a:hover {
+  text-decoration: none; }
+
+.row .views-row:hover {
+  color: white;
+  background-image: url(../images/keyboard.jpg); }
+
+.views-row {
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  font-family: "Trebuchet MS";
+  border-bottom: 1px solid #c1c1c1; }
+
 #block-calltoactionblock {
   padding-top: 60px;
   padding-bottom: 55px;
