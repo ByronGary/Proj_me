@@ -25,6 +25,8 @@
         "drupal/contact_block": "^1.4",
         "drupal/core": "~8.0",
         "drupal/devel": "~1.0",
+        "drupal/page_manager": "^4.0@beta",
+        "drupal/panels": "^4.2",
         "drupal/social_media_links": "^2.5",
         "drush/drush": "~8.0",
         "webflo/drupal-finder": "^0.3.0",
