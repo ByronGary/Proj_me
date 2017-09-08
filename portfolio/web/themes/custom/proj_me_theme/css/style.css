@@ -6320,6 +6320,18 @@ ol, ul {
 body {
   background-image: url("../images/DC.jpg"); }
 
+@media screen and (max-width: 992px) {
+  #navbar {
+    width: 100%; }
+
+  .navbar-header {
+    width: 30%; }
+
+  .hero-section-border {
+    width: 909px; } }
+@media screen and (max-width: 950px) {
+  .block-views-blockportfolio-block-1 .view-content {
+    width: 70%; } }
 .navbar-header {
   float: right;
   margin-top: 20px; }
@@ -6494,8 +6506,8 @@ u {
   text-decoration: none; }
 
 .block-views-blockblog-block-1 .views-row:hover {
-  color: #c4673d;
-  background-image: url(../images/keyboard.jpg); }
+  background-image: url("../images/Keyboard.jpg");
+  color: #c4673d; }
 
 .block-views-blockblog-block-1 .views-row {
   width: 100%;
@@ -6516,7 +6528,7 @@ u {
   font-weight: 600;
   width: 100%; }
 
-#block-calltoactionblock .letsbuild {
+#block-calltoactionblock .calltoaction {
   margin: 0px 25px;
   background-color: #bf5829;
   color: #d6d6d6;

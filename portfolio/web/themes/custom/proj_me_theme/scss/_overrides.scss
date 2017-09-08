@@ -33,8 +33,30 @@ body {
 }
 
 
+@media screen and (max-width: 992px) {
+
+#navbar{width: 100%;
+}
+
+.navbar-header{ width: 30%; 
+}
+.hero-section-border{width: 909px;
+}
+}
+
+@media screen and (max-width: 950px){
+  
+  .block-views-blockportfolio-block-1 .view-content {
+  width:70%;
+  }
+}
 
 
+@media screen and (max-width: 667px){
+  #block-calltoactionblock .calltoaction{
+
+  }
+}
 
 .navbar-header {
   float: right;
@@ -258,9 +280,9 @@ text-decoration: none;
   
 
 
-.block-views-blockblog-block-1  .views-row:hover {
+.block-views-blockblog-block-1 .views-row:hover {
+  background-image: url('../images/Keyboard.jpg');
   color: #c4673d;
-  background-image: url(../images/keyboard.jpg);
 }
 
 
@@ -288,7 +310,7 @@ text-decoration: none;
 
 
 
- #block-calltoactionblock .letsbuild {
+ #block-calltoactionblock .calltoaction {
   margin: 0px 25px;
   background-color: #bf5829;
   color: #d6d6d6;
