@@ -26,34 +26,62 @@ ol, ul {
 }
 
 
- 
-body {
-   background-image: url('../images/DC.jpg');
+.body{
+   
+    overflow-x: hidden;
+}
+
+
+.main-container{
+      margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+
+@media (min-width: 768px){
+.navbar.container{
+}
   
-}
+  }
+
+@media (min-width: 991px){
+
+  #block-proj-me-theme-main-menu{
+  display: inline-block;
+  width: auto;
+  margin: 0px auto;
+  }
+
+  #block-socialmedialinks-2{
 
 
-@media screen and (max-width: 992px) {
 
-#navbar{width: 100%;
+  }
+ 
+
 }
 
-.navbar-header{ width: 30%; 
-}
-.hero-section-border{width: 909px;
-}
+@media (min-width: 426px){
+  .hero-text{
+  text-align: center;
+  width: 100%;
+
+  }
 }
 
 @media screen and (max-width: 950px){
   
   .block-views-blockportfolio-block-1 .view-content {
   width:70%;
+
   }
 }
 
 
-@media screen and (max-width: 667px){
+@media screen and (min-width: 631px){
   #block-calltoactionblock .calltoaction{
+  width:70px;
 
   }
 }
@@ -308,14 +336,16 @@ text-decoration: none;
  width: 100%;
  }
 
-
+#block-calltoactionblock p{
+  font-size: 27px;
+}
 
  #block-calltoactionblock .calltoaction {
   margin: 0px 25px;
   background-color: #bf5829;
   color: #d6d6d6;
   text-transform: uppercase;
-  padding: 15px 50px;
+  padding: 10px 34px;
   font-family: "Trebuchet MS";
  font-size: 15px;
  }
@@ -341,10 +371,12 @@ text-decoration: none;
 }
 
 .footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
+  position: relative;
+  padding: 0px;
+  width: 100%;
   border-top: 1px solid #E5E5E5;
+      top: -15px;
+    height: 20px
 }
 
 
@@ -379,7 +411,7 @@ text-decoration: none;
     background-color: #161616;
 }
 
-#calltoactionblock{
+#block-calltoactionblock{
     width: 100%;
     text-align: center;
     background-color: #272727;
@@ -388,11 +420,12 @@ text-decoration: none;
     font-size: 44px;
     font-weight: 600;
     text-align: center;
+    margin-top: 0px;
 }
 
 
 
-#calltoactionblock a{
+#block-calltoactionblock a{
     color: #ffffff;
     background-color: #bf5829;
     padding: 20px;
@@ -404,8 +437,8 @@ text-decoration: none;
     text-decoration: none;
 }
 
-#calltoactionblock p{
-  font-size:23px;
+#block-calltoactionblock p{
+  font-size:27px;
 }
 
 
