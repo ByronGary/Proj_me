@@ -6317,21 +6317,29 @@ ol, ul {
   .popover ol:last-child, .popover ul:last-child {
     margin-bottom: 0; }
 
-body {
-  background-image: url("../images/DC.jpg"); }
+.body {
+  overflow-x: hidden; }
 
-@media screen and (max-width: 992px) {
-  #navbar {
-    width: 100%; }
+.main-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%; }
 
-  .navbar-header {
-    width: 30%; }
-
-  .hero-section-border {
-    width: 909px; } }
+@media (min-width: 991px) {
+  #block-proj-me-theme-main-menu {
+    display: inline-block;
+    width: auto;
+    margin: 0px auto; } }
+@media (min-width: 426px) {
+  .hero-text {
+    text-align: center;
+    width: 100%; } }
 @media screen and (max-width: 950px) {
   .block-views-blockportfolio-block-1 .view-content {
     width: 70%; } }
+@media screen and (min-width: 631px) {
+  #block-calltoactionblock .calltoaction {
+    width: 70px; } }
 .navbar-header {
   float: right;
   margin-top: 20px; }
@@ -6528,12 +6536,15 @@ u {
   font-weight: 600;
   width: 100%; }
 
+#block-calltoactionblock p {
+  font-size: 27px; }
+
 #block-calltoactionblock .calltoaction {
   margin: 0px 25px;
   background-color: #bf5829;
   color: #d6d6d6;
   text-transform: uppercase;
-  padding: 15px 50px;
+  padding: 10px 34px;
   font-family: "Trebuchet MS";
   font-size: 15px; }
 
@@ -6553,10 +6564,12 @@ u {
   border-bottom: 1px solid #f4a742; }
 
 .footer {
-  margin-top: 45px;
-  padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5; }
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  border-top: 1px solid #E5E5E5;
+  top: -15px;
+  height: 20px; }
 
 .region-help .glyphicon {
   font-size: 18px;
@@ -6577,7 +6590,7 @@ u {
   text-align: center;
   background-color: #161616; }
 
-#calltoactionblock {
+#block-calltoactionblock {
   width: 100%;
   text-align: center;
   background-color: #272727;
@@ -6585,9 +6598,10 @@ u {
   font-family: "Bodoni MT";
   font-size: 44px;
   font-weight: 600;
-  text-align: center; }
+  text-align: center;
+  margin-top: 0px; }
 
-#calltoactionblock a {
+#block-calltoactionblock a {
   color: #ffffff;
   background-color: #bf5829;
   padding: 20px;
@@ -6598,8 +6612,8 @@ u {
   margin: 10px;
   text-decoration: none; }
 
-#calltoactionblock p {
-  font-size: 23px; }
+#block-calltoactionblock p {
+  font-size: 27px; }
 
 #block-debugacademyblock {
   padding-top: 35px;
