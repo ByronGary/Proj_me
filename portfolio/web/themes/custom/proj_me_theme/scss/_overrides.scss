@@ -26,7 +26,7 @@ ol, ul {
 }
 
 
-.body{
+body{
    
     overflow-x: hidden;
 }
@@ -211,6 +211,7 @@ $base-content: #f4f4f3;
 
 .block-views-blockportfolio-block-1 .view-content {
   text-align: center;
+  width: 100%;
 }
 
 .block-views-blockportfolio-block-1 .view-content .views-row {
@@ -234,17 +235,25 @@ $base-content: #f4f4f3;
   font-family: "Trebuchet MS";
 }
 
+.block-views-blockportfolio-block-1 .views-field-title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ff4b00;
+}
+
 .views-field-title{
       color: #868686;
     letter-spacing: 3px;
 }
 
 .img-responsive{
-   border-radius:50%;
-  position: relative;
-    left: 198px;
-    top: 20px;
+    position: relative;
+    width: 400px;
+    margin: 10px;
+    height: auto;
+    display: inline-block;
 }
+
 
 
 .block-views-blockblog-block-1  .views-row{
@@ -489,4 +498,10 @@ text-decoration: none;
     margin: -20px;
     margin-top: 0px;
  }
+}
+
+@media screen and (min-width: 768px){
+   body {
+    margin-top: 0px;
+}
 }
