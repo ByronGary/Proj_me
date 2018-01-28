@@ -27,6 +27,7 @@ ol, ul {
 
 
 body{
+    background-color: #ffdead;
    
     overflow-x: hidden;
 }
@@ -191,6 +192,8 @@ $base-content: #f4f4f3;
 
 
 .block-views-blockportfolio-block-1 h2.block-title {
+
+  letter-spacing: 5px;
   font-size: 15px;
   font-family: "Trebuchet MS";
   color: #aaaaaa;
