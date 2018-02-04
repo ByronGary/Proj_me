@@ -19,6 +19,8 @@ class DebugAcademy extends BlockBase {
    */
   public function build() {
     $build = [];
+    
+
     $build['debug_academy_block']['#markup'] = 'Template programmed by students of the career-changing <a href="http://debugacademy.com/">Debug Academy.</a>';
 
     return $build;
