@@ -6318,6 +6318,7 @@ ol, ul {
     margin-bottom: 0; }
 
 body {
+  background-color: #ffdead;
   overflow-x: hidden; }
 
 .main-container {
@@ -6331,7 +6332,8 @@ body {
 
 header#navbar a.navbar-brand {
   font-size: 23px;
-  color: white; }
+  color: white;
+  letter-spacing: 1px; }
 
 #block-proj-me-theme-main-menu {
   float: left; }
@@ -6370,6 +6372,10 @@ header#navbar a.navbar-brand {
   padding: 10px 30px;
   text-transform: uppercase;
   ont-family: "Trebuchet MS"; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: #bf5829;
+  color: #FFFFFF; }
 
 .block-social-media-links .horizontal li, .pane-social-media-link-widget .horizontal li {
   display: inline-block;
@@ -6421,7 +6427,14 @@ u {
   text-transform: uppercase;
   border: none;
   margin-top: 30px;
-  color: #d6d6d6; }
+  color: #d6d6d6;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 5px #999; }
+
+#hero .button:active {
+  box-shadow: 0 4px #666;
+  transform: translateY(4px); }
 
 .call-to-action p {
   font-size: 11px; }
@@ -6439,6 +6452,7 @@ u {
   background-size: cover; }
 
 .block-views-blockportfolio-block-1 h2.block-title {
+  letter-spacing: 2px;
   font-size: 15px;
   font-family: "Trebuchet MS";
   color: #aaaaaa;
@@ -6490,11 +6504,11 @@ u {
   position: relative;
   width: 400px;
   margin: 10px;
-  height: auto;
+  height: 200px;
   display: inline-block; }
 
 .block-views-blockblog-block-1 .views-row {
-  background-color: #f4f4f3; }
+  background-color: #ffdead; }
 
 .block-views-blockblog-block-1 a .quickedit-field {
   color: #382a3b;
